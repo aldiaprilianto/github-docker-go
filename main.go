@@ -20,7 +20,7 @@ func sayHello(name string) string {
 func echoTheGo() {
 	e := echo.New()
 	e.GET("/", func(c echo.Context) error {
-		return c.String(http.StatusOK, "Hello, World!")
+		return c.String(http.StatusOK, "Hello, World!!")
 	})
 	e.Logger.Fatal(e.Start(":8080"))
 }
