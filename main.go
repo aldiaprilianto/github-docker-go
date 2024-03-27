@@ -22,5 +22,5 @@ func echoTheGo() {
 	e.GET("/", func(c echo.Context) error {
 		return c.String(http.StatusOK, "Hello, World!! I'ts me Aldy!")
 	})
-	e.Logger.Fatal(e.Start(":8080"))
+	e.Logger.Fatal(e.Start(":8888"))
 }
